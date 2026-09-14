@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "NavGuard",
+    "slug": "navguard",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "config": {
+        "googleMapsApiKey": "YOUR_IOS_API_KEY_IS_HERE"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0a192f"
+      },
+      "package": "com.anonymous.navguard",
+      "config": {
+        "googleMaps": {
+          "apiKey": "YOUR_ANDROID_API_KEY_IS_HERE"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-asset",
+      "expo-status-bar",
+      "expo-camera",
+      "expo-location",
+      "expo-notifications"
+    ]
+  }
+}
